@@ -1,6 +1,6 @@
 import json
 
-from .config import DATA_FILE
+from .config import DATA_FILE, SEED_DATA_FILE
 from .db import init_db, load_all_items, load_meta, replace_all_items
 from .fetcher import fetch_ipo_data
 
@@ -18,8 +18,19 @@ def ensure_bootstrap():
             return
         except Exception:
             pass
-    payload = fetch_ipo_data()
-    persist_payload(payload)
+    if SEED_DATA_FILE.exists():
+        try:
+            payload = json.loads(SEED_DATA_FILE.read_text(encoding="utf-8"))
+            persist_payload(payload)
+            return
+        except Exception:
+            pass
+    # Last fallback: try live fetch. If source is unavailable, keep service up with empty DB.
+    try:
+        payload = fetch_ipo_data()
+        persist_payload(payload)
+    except Exception:
+        return
 
 
 def persist_payload(payload: dict):
