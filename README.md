@@ -48,8 +48,12 @@ python3 scripts/fetch_ipo_data.py
 설정 포인트:
 - `startCommand`: `python3 server.py`
 - `HOST=0.0.0.0`
-- `IPO_DATA_DIR=/var/data` (영구 디스크 경로)
-- 디스크 마운트: `/var/data` (1GB)
+- `IPO_DATA_DIR=/tmp/gongmoju-data` (free 플랜 호환)
 
 배포 후 URL 예:
 `https://<your-service>.onrender.com`
+
+주의:
+- Render free 플랜은 persistent disk를 지원하지 않습니다.
+- 따라서 재시작/재배포 시 로컬 DB/JSON 캐시는 초기화될 수 있습니다.
+- 앱은 시작 시 자동 부트스트랩(원천 재수집)하도록 구성되어 있습니다.
