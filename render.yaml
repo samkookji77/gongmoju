@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: gongmoju-ipo-calendar
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python3 server.py"
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: IPO_DATA_DIR
+        value: /var/data
+    disk:
+      name: gongmoju-data
+      mountPath: /var/data
+      sizeGB: 1

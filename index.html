@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>공모주 청약 캘린더</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260308b" />
+  </head>
+  <body>
+    <div class="background-shape shape-a"></div>
+    <div class="background-shape shape-b"></div>
+
+    <main class="app">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">KOSPI / KOSDAQ</p>
+          <h1>공모주 청약 캘린더</h1>
+          <p class="subtitle">청약 시작일과 종료일을 일 단위로 확인하세요.</p>
+        </div>
+        <div class="hero-actions">
+          <button id="refreshBtn" class="ghost-btn">데이터 갱신</button>
+          <button id="todayBtn" class="ghost-btn">오늘로 이동</button>
+        </div>
+      </header>
+
+      <section class="controls">
+        <div class="month-nav">
+          <button id="prevBtn" aria-label="이전 달">‹</button>
+          <h2 id="monthLabel"></h2>
+          <button id="nextBtn" aria-label="다음 달">›</button>
+        </div>
+        <div class="market-filter" role="group" aria-label="시장 필터">
+          <button class="chip active" data-market="ALL">전체</button>
+          <button class="chip" data-market="KOSPI">KOSPI</button>
+          <button class="chip" data-market="KOSDAQ">KOSDAQ</button>
+        </div>
+      </section>
+
+      <section class="stats" id="stats"></section>
+      <p id="updatedAtLabel" class="updated-at"></p>
+
+      <section class="layout">
+        <article class="calendar-card">
+          <div class="calendar-legend">
+            <span class="legend-chip sub">청약</span>
+            <span class="legend-chip list">상장</span>
+          </div>
+          <div class="calendar-header">
+            <span>일</span>
+            <span>월</span>
+            <span>화</span>
+            <span>수</span>
+            <span>목</span>
+            <span>금</span>
+            <span>토</span>
+          </div>
+          <div id="calendarGrid" class="calendar-grid"></div>
+        </article>
+
+        <aside class="detail-card">
+          <h3 id="selectedDateLabel"></h3>
+          <ul id="eventList" class="event-list"></ul>
+        </aside>
+      </section>
+    </main>
+
+    <div id="detailModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-card">
+        <button id="modalCloseBtn" class="modal-close" aria-label="닫기">×</button>
+        <h3 id="modalTitle"></h3>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+    </div>
+
+    <script type="module" src="./src/app.js?v=20260308b"></script>
+  </body>
+</html>

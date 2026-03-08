@@ -1,0 +1,528 @@
+{
+  "updatedAt": "2026-03-08T12:55:02.286846+00:00",
+  "sourcePages": [
+    "https://www.38.co.kr/html/fund/index.htm?o=k",
+    "https://www.38.co.kr/html/fund/index.htm?o=nw"
+  ],
+  "items": [
+    {
+      "id": "2238",
+      "company": "이지스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-02",
+      "subscriptionEnd": "2025-12-03",
+      "listingDate": null,
+      "brokers": [
+        "NH투자증권"
+      ],
+      "fixedOfferPrice": "15,000",
+      "desiredOfferPriceRange": "13,000~15,000",
+      "competitionRate": "546.14:1",
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2238",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2237",
+      "company": "쿼드메디슨",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-02",
+      "subscriptionEnd": "2025-12-03",
+      "listingDate": null,
+      "brokers": [
+        "NH투자증권"
+      ],
+      "fixedOfferPrice": "15,000",
+      "desiredOfferPriceRange": "12,000~15,000",
+      "competitionRate": "607.39:1",
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2237",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2242",
+      "company": "티엠씨",
+      "market": "KOSPI",
+      "subscriptionStart": "2025-12-03",
+      "subscriptionEnd": "2025-12-04",
+      "listingDate": null,
+      "brokers": [
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "9,300",
+      "desiredOfferPriceRange": "8,000~9,300",
+      "competitionRate": "1305.46:1",
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2242",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2257",
+      "company": "메리츠스팩1호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-04",
+      "subscriptionEnd": "2025-12-05",
+      "listingDate": "2025-12-15",
+      "brokers": [
+        "메리츠증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "194:1",
+      "stockCode": "0088D0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2257",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2247",
+      "company": "아크릴",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-04",
+      "subscriptionEnd": "2025-12-05",
+      "listingDate": "2025-12-16",
+      "brokers": [
+        "신한투자증권"
+      ],
+      "fixedOfferPrice": "19,500",
+      "desiredOfferPriceRange": "17,500~19,500",
+      "competitionRate": "1130.32:1",
+      "stockCode": "0007C0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2247",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2231",
+      "company": "나라스페이스테크놀로지",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-08",
+      "subscriptionEnd": "2025-12-09",
+      "listingDate": "2025-12-17",
+      "brokers": [
+        "삼성증권"
+      ],
+      "fixedOfferPrice": "16,500",
+      "desiredOfferPriceRange": "13,100~16,500",
+      "competitionRate": "699.64:1",
+      "stockCode": "478340",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2231",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2264",
+      "company": "IBKS스팩25호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-09",
+      "subscriptionEnd": "2025-12-10",
+      "listingDate": "2025-12-19",
+      "brokers": [
+        "IBK투자증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "644.85:1",
+      "stockCode": "0099X0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2264",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2258",
+      "company": "알지노믹스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-09",
+      "subscriptionEnd": "2025-12-10",
+      "listingDate": "2025-12-18",
+      "brokers": [
+        "삼성증권",
+        "NH투자증권"
+      ],
+      "fixedOfferPrice": "22,500",
+      "desiredOfferPriceRange": "17,000~22,500",
+      "competitionRate": "1871.43:1",
+      "stockCode": "476830",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2258",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2263",
+      "company": "미래에셋비전스팩11호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-10",
+      "subscriptionEnd": "2025-12-11",
+      "listingDate": "2025-12-22",
+      "brokers": [
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "593.86:1",
+      "stockCode": "0099W0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2263",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2252",
+      "company": "삼진식품",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-11",
+      "subscriptionEnd": "2025-12-12",
+      "listingDate": "2025-12-22",
+      "brokers": [
+        "대신증권"
+      ],
+      "fixedOfferPrice": "7,600",
+      "desiredOfferPriceRange": "6,700~7,600",
+      "competitionRate": "3224.76:1",
+      "stockCode": "0013V0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2252",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2262",
+      "company": "하나스팩36호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-11",
+      "subscriptionEnd": "2025-12-12",
+      "listingDate": "2025-12-22",
+      "brokers": [
+        "하나증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "421.20:1",
+      "stockCode": "0101C0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2262",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2265",
+      "company": "미래에셋비전스팩10호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-12",
+      "subscriptionEnd": "2025-12-15",
+      "listingDate": "2025-12-23",
+      "brokers": [
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "914.50:1",
+      "stockCode": "0097F0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2265",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2248",
+      "company": "리브스메드",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-15",
+      "subscriptionEnd": "2025-12-16",
+      "listingDate": "2025-12-24",
+      "brokers": [
+        "삼성증권",
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "55,000",
+      "desiredOfferPriceRange": "44,000~55,000",
+      "competitionRate": "390:1",
+      "stockCode": "491000",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2248",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2255",
+      "company": "세미파이브",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2025-12-18",
+      "subscriptionEnd": "2025-12-19",
+      "listingDate": "2025-12-29",
+      "brokers": [
+        "삼성증권"
+      ],
+      "fixedOfferPrice": "24,000",
+      "desiredOfferPriceRange": "21,000~24,000",
+      "competitionRate": "967.60:1",
+      "stockCode": "490470",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2255",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2266",
+      "company": "삼성스팩13호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-01-12",
+      "subscriptionEnd": "2026-01-13",
+      "listingDate": "2026-01-21",
+      "brokers": [
+        "삼성증권"
+      ],
+      "fixedOfferPrice": "2,000",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": "1870.38:1",
+      "stockCode": "0115H0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2266",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2267",
+      "company": "덕양에너젠",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-01-20",
+      "subscriptionEnd": "2026-01-21",
+      "listingDate": "2026-01-30",
+      "brokers": [
+        "NH투자증권",
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "10,000",
+      "desiredOfferPriceRange": "8,500~10,000",
+      "competitionRate": "1354.4:1",
+      "stockCode": "0001A0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2267",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2271",
+      "company": "케이뱅크",
+      "market": "KOSPI",
+      "subscriptionStart": "2026-02-20",
+      "subscriptionEnd": "2026-02-23",
+      "listingDate": "2026-03-05",
+      "brokers": [
+        "NH투자증권",
+        "삼성증권",
+        "신한투자증권"
+      ],
+      "fixedOfferPrice": "8,300",
+      "desiredOfferPriceRange": "8,300~9,500",
+      "competitionRate": "134.59:1",
+      "stockCode": "279570",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2271",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2268",
+      "company": "액스비스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-02-23",
+      "subscriptionEnd": "2026-02-24",
+      "listingDate": "2026-03-09",
+      "brokers": [
+        "미래에셋증권"
+      ],
+      "fixedOfferPrice": "11,500",
+      "desiredOfferPriceRange": "10,100~11,500",
+      "competitionRate": "2711.06:1",
+      "stockCode": "0011A0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2268",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2273",
+      "company": "에스팀",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-02-23",
+      "subscriptionEnd": "2026-02-24",
+      "listingDate": "2026-03-06",
+      "brokers": [
+        "한국투자증권"
+      ],
+      "fixedOfferPrice": "8,500",
+      "desiredOfferPriceRange": "7,000~8,500",
+      "competitionRate": "1960.87:1",
+      "stockCode": "458350",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2273",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2269",
+      "company": "카나프테라퓨틱스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-05",
+      "subscriptionEnd": "2026-03-06",
+      "listingDate": "2026-03-16",
+      "brokers": [
+        "한국투자증권"
+      ],
+      "fixedOfferPrice": "20,000",
+      "desiredOfferPriceRange": "16,000~20,000",
+      "competitionRate": "1899.29:1",
+      "stockCode": "0082N0",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2269",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2272",
+      "company": "아이엠바이오로직스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-11",
+      "subscriptionEnd": "2026-03-12",
+      "listingDate": "2026-03-20",
+      "brokers": [
+        "한국투자증권",
+        "신한투자증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "19,000~26,000",
+      "competitionRate": null,
+      "stockCode": "493280",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2272",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2274",
+      "company": "메쥬",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-16",
+      "subscriptionEnd": "2026-03-17",
+      "listingDate": null,
+      "brokers": [
+        "신한투자증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "16,700~21,600",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2274",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2276",
+      "company": "한패스",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-16",
+      "subscriptionEnd": "2026-03-17",
+      "listingDate": "2026-03-25",
+      "brokers": [
+        "한국투자증권",
+        "대신증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "17,000~19,000",
+      "competitionRate": null,
+      "stockCode": "408470",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2276",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2277",
+      "company": "NH스팩33호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-17",
+      "subscriptionEnd": "2026-03-18",
+      "listingDate": null,
+      "brokers": [
+        "NH투자증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2277",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2278",
+      "company": "코스모로보틱스(구.엑소아틀레트아시아)",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-18",
+      "subscriptionEnd": "2026-03-19",
+      "listingDate": null,
+      "brokers": [
+        "유진투자증권",
+        "NH투자증권",
+        "유안타증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "5,300~6,000",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2278",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2270",
+      "company": "리센스메디컬",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-19",
+      "subscriptionEnd": "2026-03-20",
+      "listingDate": "2026-03-31",
+      "brokers": [
+        "한국투자증권",
+        "KB증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "9,000~11,000",
+      "competitionRate": null,
+      "stockCode": "394420",
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2270",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2280",
+      "company": "신한스팩17호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-19",
+      "subscriptionEnd": "2026-03-20",
+      "listingDate": null,
+      "brokers": [
+        "신한투자증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2280",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2279",
+      "company": "교보스팩20호",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-23",
+      "subscriptionEnd": "2026-03-24",
+      "listingDate": null,
+      "brokers": [
+        "교보증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "2,000~2,000",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2279",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2275",
+      "company": "인벤테라",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-03-23",
+      "subscriptionEnd": "2026-03-24",
+      "listingDate": null,
+      "brokers": [
+        "NH투자증권",
+        "유진투자증권"
+      ],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "12,100~16,600",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2275",
+      "source": "38.co.kr"
+    },
+    {
+      "id": "2281",
+      "company": "채비(구.대영채비)",
+      "market": "KOSDAQ",
+      "subscriptionStart": "2026-04-01",
+      "subscriptionEnd": "2026-04-02",
+      "listingDate": null,
+      "brokers": [],
+      "fixedOfferPrice": "-",
+      "desiredOfferPriceRange": "12,300~15,300",
+      "competitionRate": null,
+      "stockCode": null,
+      "detailUrl": "https://www.38.co.kr/html/fund/index.htm?o=v&no=2281",
+      "source": "38.co.kr"
+    }
+  ]
+}
