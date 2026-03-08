@@ -1,17 +1,54 @@
 import re
+import ssl
 from datetime import datetime, timezone
 from html import unescape
-from urllib.request import urlopen
+from urllib.error import URLError
+from urllib.request import Request, urlopen
 
 from .config import SOURCE_LIST_URL, SOURCE_SUBS_URL
 
 BASE = "https://www.38.co.kr"
 
 
+def _read_url(url: str, timeout: int = 15, context=None) -> bytes:
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (compatible; gongmoju-bot/1.0; +https://render.com)",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        },
+    )
+    with urlopen(req, timeout=timeout, context=context) as res:
+        return res.read()
+
+
 def fetch_html(url: str) -> str:
-    with urlopen(url, timeout=15) as res:
-        raw = res.read()
-    return raw.decode("euc-kr", errors="replace")
+    errors = []
+
+    # 1) Normal TLS verify
+    try:
+        raw = _read_url(url)
+        return raw.decode("euc-kr", errors="replace")
+    except Exception as e:
+        errors.append(f"https-verified: {e}")
+
+    # 2) TLS without certificate verification (for hosting TLS-compat issues)
+    try:
+        insecure_ctx = ssl._create_unverified_context()
+        raw = _read_url(url, context=insecure_ctx)
+        return raw.decode("euc-kr", errors="replace")
+    except Exception as e:
+        errors.append(f"https-insecure: {e}")
+
+    # 3) Fallback to plain HTTP if HTTPS handshake fails upstream
+    try:
+        http_url = url.replace("https://", "http://", 1)
+        raw = _read_url(http_url)
+        return raw.decode("euc-kr", errors="replace")
+    except Exception as e:
+        errors.append(f"http: {e}")
+
+    raise URLError(" / ".join(errors))
 
 
 def strip_tags(text: str) -> str:
